@@ -1,0 +1,54 @@
+/* Interests Page Specific Styles */
+#interests {
+    display: block; /* Ensure the section is visible */
+    padding: 60px 0;
+    text-align: center;
+    background: #010e1b; /* Dark background */
+    color: #fff; /* White text */
+  }
+  
+  #interests h2 {
+    font-size: 36px;
+    color: #12d640; /* Green color */
+    margin-bottom: 20px;
+  }
+  
+  #interests p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+  
+  #interests .php-email-form {
+    display: block; /* Ensure the form is visible */
+    margin: 0 auto;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  #interests .php-email-form input,
+  #interests .php-email-form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  #interests .php-email-form button[type="submit"] {
+    background: #12d640;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+  }
+  
+  #interests .php-email-form button[type="submit"]:hover {
+    background: #0fa52d;
+  }
